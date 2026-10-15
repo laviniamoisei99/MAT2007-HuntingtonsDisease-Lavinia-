@@ -1,7 +1,5 @@
 **Huntington's Disease Gene Expression Analysis**
-
-**MAT2007 – Introduction to Programming**  
-Maastricht Science Programme
+MAT2007 – Introduction to Programming (Maastricht Science Programme)
 
 **Project**
 
