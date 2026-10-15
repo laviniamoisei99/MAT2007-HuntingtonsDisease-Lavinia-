@@ -34,13 +34,13 @@ To run the code, you need Python, NumPy, pandas, and Matplotlib.
 
    `python3 -m pip install numpy pandas matplotlib`
 
-3. Open the script in VS Code and select **Run Python File**, or run it from the terminal using:
+3. Open the script in VS Code and select Run Python File, or run it from the terminal using:
 
    `python3 LMVL-Project.py`
    
 **Data processing**
 
-No manual cleaning of the dataset is required.
+No manual cleaning is required.
 
 The script performs a few processing steps before the analysis:
 - Reads the sample metadata and expression measurements from the compressed GEO file.
@@ -52,7 +52,7 @@ For the selected probe, the code calculates means, medians, standard deviations,
 
 **Outputs**
 
-After running the script, the results are printed in the terminal, including the selected probe, sample counts, summary statistics, and expression differences relative to Control. Two plots are also generated and saved automatically in the `images` folder: `HD_expression_distribution.png` and `HD_expression_uncertainty.png`.
+After running the script, the results are printed in the terminal, including the selected probe, sample counts, summary statistics, and expression differences relative to Control. Two plots are also generated and saved automatically in the `images` folder as `HD_expression_distribution.png` and `HD_expression_uncertainty.png`.
 
 **Report**
 
